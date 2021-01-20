@@ -17,13 +17,13 @@ int main(int argc, char *argv[]) {
     print_version();
     return 0;
   }
-  
+
   struct config_options config;
   parse_config(&config);
 
   struct dl_stack * stack = read_entries(config.downloads_path);
   quicksort(stack->entries, 0, stack->size - 1);
-
+  
   switch(args->cmd) {
     case SFM_POP:
       dls_pop(args, stack);

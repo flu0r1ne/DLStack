@@ -15,14 +15,7 @@ enum dls_cmd {
   SFM_PUSH
 };
 
-static char * dls_cmd_str [] = {
-  [SFM_UNKNOWN] = "unknown",
-  [SFM_POP]     = "pop",
-  [SFM_LIST]    = "list",
-  [SFM_TOP]     = "top",
-  [SFM_DISCARD] = "discard",
-  [SFM_PUSH]    = "push",
-};
+extern const char * dls_cmd_str [];
 
 struct dls_args {
   bool help;

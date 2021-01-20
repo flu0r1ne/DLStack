@@ -58,6 +58,15 @@
   "\n"                         \
   "Push a file onto the stack"
 
+const char * dls_cmd_str [] = {
+  [SFM_UNKNOWN] = "unknown",
+  [SFM_POP]     = "pop",
+  [SFM_LIST]    = "list",
+  [SFM_TOP]     = "top",
+  [SFM_DISCARD] = "discard",
+  [SFM_PUSH]    = "push",
+};
+
 void dls_help(enum dls_cmd c) {
   switch(c) {
     case SFM_POP:
