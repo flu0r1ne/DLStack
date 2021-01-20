@@ -47,6 +47,8 @@ For more, see `dls --help`
 Installation:
 ------------
 
+git clone --recursive https://www.github.com/flu0r1ne/DLStack
+
 Simply `make` and `make install`. It may be necessary to change the `PREFIX` on your system.
 
     [#] make
