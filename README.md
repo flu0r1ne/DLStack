@@ -54,8 +54,8 @@ Simply `make` and `make install`. It may be necessary to change the `PREFIX` on 
 
 Optionally, a TOML configuration file can be created at `~/.config/dls/config`.
 
-  # Change the downloads path, defaults to ~/Downloads
-  downloads_path = /home/{user}/Alternative_Downloads
+    # Change the downloads path, defaults to ~/Downloads
+    downloads_path = /home/{user}/Alternative_Downloads
 
 Optionally, some programs have a "open in this program" option. These programs can be directed to use the `dls_push` executable to put files in the default downloads directory. This is often cleaner as partial downloads do not appear in the stack.
 
