@@ -1,5 +1,4 @@
 #include "subcommands.h"
-#include "utils.h"
 #include "lib/extlibs.h"
 
 #include <libgen.h>

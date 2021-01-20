@@ -1,5 +1,4 @@
 #include "dl_stack.h"
-#include "utils.h"
 
 #include <stdlib.h>
 #include <fcntl.h>

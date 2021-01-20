@@ -9,13 +9,13 @@ OBJECTS += arg_parser.o
 OBJECTS += config_parser.o
 OBJECTS += dl_stack.o
 OBJECTS += subcommands.o
-OBJECTS += utils.o
 
 OBJECTS += tomlc99/toml.o
 
 OBJECTS += lib/handle.o
 OBJECTS += lib/time_delta.o
 OBJECTS += lib/left_pad.o
+OBJECTS += lib/fs_utils.o
 
 TARGET = dls
 PUSH_TARGET=dls_push

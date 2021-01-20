@@ -6,5 +6,6 @@
 #include "term_colors.h"
 #include "time_delta.h"
 #include "left_pad.h"
+#include "fs_utils.h"
 
 #endif

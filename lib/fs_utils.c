@@ -1,5 +1,5 @@
-#include "utils.h"
-#include "lib/extlibs.h"
+#include "fs_utils.h"
+#include "extlibs.h"
 
 #include <stdlib.h>
 #include <string.h>

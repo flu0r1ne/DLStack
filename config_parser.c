@@ -1,6 +1,5 @@
 #include "./tomlc99/toml.h"
 #include "config_parser.h"
-#include "utils.h"
 #include "lib/extlibs.h"
 
 #include <errno.h>
